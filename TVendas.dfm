@@ -1,0 +1,21 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Vendas'
+  ClientHeight = 610
+  ClientWidth = 1257
+  Color = clBtnFace
+  DefaultMonitor = dmDesktop
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poDesigned
+  PrintScale = poPrintToFit
+  WindowState = wsMaximized
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+end
