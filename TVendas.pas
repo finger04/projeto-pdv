@@ -12,6 +12,16 @@ type
     Label1: TLabel;
     Label2: TLabel;
     Panel2: TPanel;
+    Label3: TLabel;
+    Panel3: TPanel;
+    Label4: TLabel;
+    Panel4: TPanel;
+    Label5: TLabel;
+    Panel5: TPanel;
+    Panel6: TPanel;
+    Label6: TLabel;
+    Edit1: TEdit;
+    Label7: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
