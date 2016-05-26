@@ -4,7 +4,7 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, StdCtrls, ExtCtrls;
+  Dialogs, StdCtrls, ExtCtrls, Grids, DBGrids;
 
 type
   TForm2 = class(TForm)
@@ -21,7 +21,20 @@ type
     Panel6: TPanel;
     Label6: TLabel;
     Edit1: TEdit;
-    Label7: TLabel;
+    Panel7: TPanel;
+    Label8: TLabel;
+    Label10: TLabel;
+    Label9: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    Label13: TLabel;
+    Label14: TLabel;
+    Label15: TLabel;
+    Label16: TLabel;
+    Label17: TLabel;
+    Label18: TLabel;
+    Image1: TImage;
+    DBGrid1: TDBGrid;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -64,7 +77,6 @@ begin
   Form2.Height := Screen.Height;
 
   Form2.Width := Screen.Width;
-
 end;
 
 end.

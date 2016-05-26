@@ -21,5 +21,6 @@ object Form1: TForm1
     Caption = 'PDV - F1'
     TabOrder = 0
     OnClick = Button1Click
+    OnKeyDown = Button1KeyDown
   end
 end
