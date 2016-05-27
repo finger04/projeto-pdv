@@ -6,5 +6,35 @@
     <Transaction>2016/05/21 22:53:46.331.dproj,C:\Users\Pedro\Documents\RAD Studio\Projects\Project1.dproj=C:\Users\Pedro\Documents\RAD Studio\Projects\ProjectPDV.dproj</Transaction>
     <Transaction>2016/05/21 22:54:54.014.pas,C:\Users\Pedro\Documents\RAD Studio\Projects\Unit2.pas=C:\Users\Pedro\Documents\RAD Studio\Projects\TVendas.pas</Transaction>
     <Transaction>2016/05/21 22:54:54.014.dfm,C:\Users\Pedro\Documents\RAD Studio\Projects\Unit2.dfm=C:\Users\Pedro\Documents\RAD Studio\Projects\TVendas.dfm</Transaction>
+    <Transaction>2016/05/26 22:43:10.010.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit3.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CPessoas.pas</Transaction>
+    <Transaction>2016/05/26 22:43:10.010.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit3.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CPessoas.dfm</Transaction>
+    <Transaction>2016/05/26 22:46:15.872.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit4.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CFornecedor.pas</Transaction>
+    <Transaction>2016/05/26 22:46:15.872.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit4.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CFornecedor.dfm</Transaction>
+    <Transaction>2016/05/26 22:46:38.050.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit5.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CCaixa.pas</Transaction>
+    <Transaction>2016/05/26 22:46:38.050.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit5.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CCaixa.dfm</Transaction>
+    <Transaction>2016/05/26 22:47:15.914.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit6.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CFuncionario.pas</Transaction>
+    <Transaction>2016/05/26 22:47:15.914.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit6.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CFuncionario.dfm</Transaction>
+    <Transaction>2016/05/26 22:47:35.642.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit7.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlFinanceiro.pas</Transaction>
+    <Transaction>2016/05/26 22:47:35.642.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit7.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlFinanceiro.dfm</Transaction>
+    <Transaction>2016/05/26 22:47:57.050.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit8.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlEstoque.pas</Transaction>
+    <Transaction>2016/05/26 22:47:57.050.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit8.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlEstoque.dfm</Transaction>
+    <Transaction>2016/05/26 22:48:18.262.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit9.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlFuncionario.pas</Transaction>
+    <Transaction>2016/05/26 22:48:18.262.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit9.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlFuncionario.dfm</Transaction>
+    <Transaction>2016/05/26 22:48:45.679.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit10.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlCaixa.pas</Transaction>
+    <Transaction>2016/05/26 22:48:45.679.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit10.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\CtrlCaixa.dfm</Transaction>
+    <Transaction>2016/05/26 22:49:12.925.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit11.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\ConfImpressora.pas</Transaction>
+    <Transaction>2016/05/26 22:49:12.925.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit11.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\ConfImpressora.dfm</Transaction>
+    <Transaction>2016/05/26 22:49:34.203.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit12.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\ConfBalanca.pas</Transaction>
+    <Transaction>2016/05/26 22:49:34.203.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit12.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\ConfBalanca.dfm</Transaction>
+    <Transaction>2016/05/26 22:50:11.761.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit13.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\ConfBD.pas</Transaction>
+    <Transaction>2016/05/26 22:50:11.761.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit13.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\ConfBD.dfm</Transaction>
+    <Transaction>2016/05/26 22:50:20.555.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit14.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\REntrada.pas</Transaction>
+    <Transaction>2016/05/26 22:50:20.555.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit14.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\REntrada.dfm</Transaction>
+    <Transaction>2016/05/26 22:50:27.430.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit15.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\RSaida.pas</Transaction>
+    <Transaction>2016/05/26 22:50:27.430.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit15.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\RSaida.dfm</Transaction>
+    <Transaction>2016/05/26 22:50:39.022.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit16.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\RCaixa.pas</Transaction>
+    <Transaction>2016/05/26 22:50:39.022.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit16.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\RCaixa.dfm</Transaction>
+    <Transaction>2016/05/26 22:50:47.656.pas,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit17.pas=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\RGeral.pas</Transaction>
+    <Transaction>2016/05/26 22:50:47.656.dfm,C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\Unit17.dfm=C:\Users\Pedro\Desktop\Projeto PDV\projeto-pdv.git\trunk\RGeral.dfm</Transaction>
   </Transactions>
 </BorlandProject>

@@ -49,6 +49,51 @@
 			<DCCReference Include="TVendas.pas">
 				<Form>Form2</Form>
 			</DCCReference>
+			<DCCReference Include="CPessoas.pas">
+				<Form>Form3</Form>
+			</DCCReference>
+			<DCCReference Include="CFornecedor.pas">
+				<Form>Form4</Form>
+			</DCCReference>
+			<DCCReference Include="CCaixa.pas">
+				<Form>Form5</Form>
+			</DCCReference>
+			<DCCReference Include="CFuncionario.pas">
+				<Form>Form6</Form>
+			</DCCReference>
+			<DCCReference Include="CtrlFinanceiro.pas">
+				<Form>Form7</Form>
+			</DCCReference>
+			<DCCReference Include="CtrlEstoque.pas">
+				<Form>Form8</Form>
+			</DCCReference>
+			<DCCReference Include="CtrlFuncionario.pas">
+				<Form>Form9</Form>
+			</DCCReference>
+			<DCCReference Include="CtrlCaixa.pas">
+				<Form>Form10</Form>
+			</DCCReference>
+			<DCCReference Include="ConfImpressora.pas">
+				<Form>Form11</Form>
+			</DCCReference>
+			<DCCReference Include="ConfBalanca.pas">
+				<Form>Form12</Form>
+			</DCCReference>
+			<DCCReference Include="ConfBD.pas">
+				<Form>Form13</Form>
+			</DCCReference>
+			<DCCReference Include="REntrada.pas">
+				<Form>Form14</Form>
+			</DCCReference>
+			<DCCReference Include="RSaida.pas">
+				<Form>Form15</Form>
+			</DCCReference>
+			<DCCReference Include="RCaixa.pas">
+				<Form>Form16</Form>
+			</DCCReference>
+			<DCCReference Include="RGeral.pas">
+				<Form>Form17</Form>
+			</DCCReference>
 			<BuildConfiguration Include="Base">
 				<Key>Base</Key>
 			</BuildConfiguration>
