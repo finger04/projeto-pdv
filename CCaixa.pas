@@ -4,10 +4,24 @@ interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs;
+  Dialogs, StdCtrls;
 
 type
   TForm5 = class(TForm)
+    Label10: TLabel;
+    Label17: TLabel;
+    Label19: TLabel;
+    Edit5: TEdit;
+    Edit9: TEdit;
+    Edit4: TEdit;
+    Label1: TLabel;
+    Button1: TButton;
+    Label2: TLabel;
+    Edit1: TEdit;
+    Button2: TButton;
+    Button3: TButton;
+    Label3: TLabel;
+    Label4: TLabel;
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }

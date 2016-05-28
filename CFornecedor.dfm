@@ -2,8 +2,8 @@ object Form4: TForm4
   Left = 0
   Top = 0
   Caption = 'Cadastro Fornecedor'
-  ClientHeight = 402
-  ClientWidth = 692
+  ClientHeight = 413
+  ClientWidth = 649
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -41,8 +41,8 @@ object Form4: TForm4
     ParentFont = False
   end
   object Label7: TLabel
-    Left = 24
-    Top = 299
+    Left = 395
+    Top = 271
     Width = 79
     Height = 22
     Caption = 'Telefone:'
@@ -54,7 +54,7 @@ object Form4: TForm4
     ParentFont = False
   end
   object Label11: TLabel
-    Left = 272
+    Left = 221
     Top = 8
     Width = 167
     Height = 28
@@ -67,7 +67,7 @@ object Form4: TForm4
     ParentFont = False
   end
   object Label12: TLabel
-    Left = 272
+    Left = 221
     Top = 229
     Width = 160
     Height = 25
@@ -80,8 +80,8 @@ object Form4: TForm4
     ParentFont = False
   end
   object Label13: TLabel
-    Left = 382
-    Top = 271
+    Left = 24
+    Top = 298
     Width = 51
     Height = 22
     Caption = 'Visita:'
@@ -106,7 +106,7 @@ object Form4: TForm4
     ParentFont = False
   end
   object Label10: TLabel
-    Left = 272
+    Left = 239
     Top = 68
     Width = 116
     Height = 22
@@ -184,44 +184,39 @@ object Form4: TForm4
     ParentFont = False
   end
   object Edit1: TEdit
-    Left = 109
-    Top = 299
+    Left = 480
+    Top = 272
     Width = 149
     Height = 21
     TabOrder = 0
-    Text = 'Edit1'
   end
   object Edit2: TEdit
-    Left = 439
-    Top = 272
+    Left = 86
+    Top = 299
     Width = 106
     Height = 21
     TabOrder = 1
-    Text = 'Edit1'
   end
   object Edit3: TEdit
     Left = 86
     Top = 272
-    Width = 278
+    Width = 303
     Height = 21
     TabOrder = 2
-    Text = 'Edit1'
   end
   object Edit4: TEdit
     Left = 174
     Top = 69
-    Width = 81
+    Width = 51
     Height = 21
     TabOrder = 3
-    Text = 'Edit1'
   end
   object Edit5: TEdit
-    Left = 394
+    Left = 361
     Top = 69
-    Width = 234
+    Width = 268
     Height = 21
     TabOrder = 4
-    Text = 'Edit1'
   end
   object Edit6: TEdit
     Left = 84
@@ -229,7 +224,6 @@ object Form4: TForm4
     Width = 171
     Height = 21
     TabOrder = 5
-    Text = 'Edit1'
   end
   object Edit7: TEdit
     Left = 369
@@ -237,7 +231,6 @@ object Form4: TForm4
     Width = 180
     Height = 21
     TabOrder = 6
-    Text = 'Edit1'
   end
   object Edit8: TEdit
     Left = 439
@@ -245,15 +238,13 @@ object Form4: TForm4
     Width = 189
     Height = 21
     TabOrder = 7
-    Text = 'Edit1'
   end
   object Edit9: TEdit
     Left = 109
-    Top = 125
+    Top = 124
     Width = 190
     Height = 21
     TabOrder = 8
-    Text = 'Edit1'
   end
   object Edit10: TEdit
     Left = 162
@@ -261,19 +252,17 @@ object Form4: TForm4
     Width = 244
     Height = 21
     TabOrder = 9
-    Text = 'Edit1'
   end
   object Edit11: TEdit
-    Left = 476
+    Left = 474
     Top = 98
-    Width = 152
+    Width = 155
     Height = 21
     TabOrder = 10
-    Text = 'Edit1'
   end
   object Button1: TButton
-    Left = 561
-    Top = 336
+    Left = 522
+    Top = 344
     Width = 106
     Height = 49
     Caption = 'Gravar'
@@ -281,7 +270,7 @@ object Form4: TForm4
   end
   object Button2: TButton
     Left = 24
-    Top = 336
+    Top = 344
     Width = 106
     Height = 49
     Caption = 'Cancelar'
