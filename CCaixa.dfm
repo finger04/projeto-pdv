@@ -147,6 +147,7 @@ object Form5: TForm5
     Height = 51
     Caption = 'Cancelar'
     TabOrder = 5
+    OnClick = Button2Click
   end
   object Button3: TButton
     Left = 416

@@ -23,6 +23,7 @@ type
     Label3: TLabel;
     Label4: TLabel;
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -35,6 +36,11 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm5.Button2Click(Sender: TObject);
+begin
+Close;
+end;
 
 procedure TForm5.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);

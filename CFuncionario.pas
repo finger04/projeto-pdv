@@ -69,6 +69,8 @@ type
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure RadioButton2Click(Sender: TObject);
     procedure RadioButton1Click(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Edit4KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -81,6 +83,19 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm6.Button1Click(Sender: TObject);
+begin
+close;
+end;
+
+procedure TForm6.Edit4KeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+if key = 27 then  begin
+    Form6.Close;
+end;
+end;
 
 procedure TForm6.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);

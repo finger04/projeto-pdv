@@ -316,8 +316,8 @@ object Form6: TForm6
     ParentFont = False
   end
   object Label24: TLabel
-    Left = 222
-    Top = 519
+    Left = 224
+    Top = 522
     Width = 49
     Height = 18
     Caption = 'Banco:'
@@ -332,7 +332,7 @@ object Form6: TForm6
   end
   object Label25: TLabel
     Left = 32
-    Top = 484
+    Top = 492
     Width = 144
     Height = 22
     Caption = 'Tipo Pagamento:'
@@ -344,8 +344,8 @@ object Form6: TForm6
     ParentFont = False
   end
   object Label26: TLabel
-    Left = 361
-    Top = 550
+    Left = 360
+    Top = 552
     Width = 46
     Height = 18
     Caption = 'Conta:'
@@ -358,8 +358,8 @@ object Form6: TForm6
     Visible = False
   end
   object Label27: TLabel
-    Left = 131
-    Top = 398
+    Left = 128
+    Top = 400
     Width = 296
     Height = 28
     Caption = 'Informa'#231#245'es de Pagamento:'
@@ -384,8 +384,8 @@ object Form6: TForm6
     ParentFont = False
   end
   object Label29: TLabel
-    Left = 219
-    Top = 550
+    Left = 216
+    Top = 552
     Width = 62
     Height = 18
     Caption = 'Ag'#234'ncia:'
@@ -429,56 +429,57 @@ object Form6: TForm6
     Top = 113
     Width = 174
     Height = 21
-    TabOrder = 0
+    TabOrder = 1
   end
   object Edit6: TEdit
     Left = 391
     Top = 141
     Width = 82
     Height = 21
-    TabOrder = 1
+    TabOrder = 4
   end
   object Edit7: TEdit
     Left = 907
     Top = 112
     Width = 132
     Height = 21
-    TabOrder = 2
+    TabOrder = 7
   end
   object Edit8: TEdit
-    Left = 660
+    Left = 659
     Top = 112
     Width = 189
     Height = 21
-    TabOrder = 3
+    TabOrder = 6
   end
   object Edit9: TEdit
-    Left = 200
-    Top = 141
+    Left = 201
+    Top = 140
     Width = 71
     Height = 21
-    TabOrder = 4
+    TabOrder = 3
   end
   object Edit10: TEdit
     Left = 302
     Top = 112
     Width = 171
     Height = 21
-    TabOrder = 5
+    TabOrder = 2
   end
   object Edit11: TEdit
     Left = 730
     Top = 85
     Width = 309
     Height = 21
-    TabOrder = 6
+    TabOrder = 5
   end
   object Edit4: TEdit
     Left = 94
     Top = 85
     Width = 379
     Height = 21
-    TabOrder = 7
+    TabOrder = 0
+    OnKeyDown = Edit4KeyDown
   end
   object Edit1: TEdit
     Left = 729
@@ -492,7 +493,7 @@ object Form6: TForm6
     Top = 278
     Width = 119
     Height = 21
-    TabOrder = 9
+    TabOrder = 12
   end
   object Edit3: TEdit
     Left = 345
@@ -506,21 +507,21 @@ object Form6: TForm6
     Top = 250
     Width = 115
     Height = 21
-    TabOrder = 11
+    TabOrder = 9
   end
   object Edit13: TEdit
     Left = 97
     Top = 305
     Width = 310
     Height = 21
-    TabOrder = 12
+    TabOrder = 13
   end
   object Edit14: TEdit
     Left = 108
     Top = 278
     Width = 141
     Height = 21
-    TabOrder = 13
+    TabOrder = 11
   end
   object Edit15: TEdit
     Left = 661
@@ -541,49 +542,49 @@ object Form6: TForm6
     Top = 277
     Width = 105
     Height = 21
-    TabOrder = 16
+    TabOrder = 17
   end
   object Edit19: TEdit
     Left = 657
     Top = 277
     Width = 199
     Height = 21
-    TabOrder = 17
+    TabOrder = 16
   end
   object Edit18: TEdit
-    Left = 183
-    Top = 449
+    Left = 184
+    Top = 448
     Width = 132
     Height = 21
     TabOrder = 18
   end
   object Edit20: TEdit
-    Left = 425
-    Top = 547
+    Left = 416
+    Top = 549
     Width = 135
     Height = 21
-    TabOrder = 19
+    TabOrder = 23
     Visible = False
   end
   object Edit21: TEdit
-    Left = 277
-    Top = 520
+    Left = 280
+    Top = 519
     Width = 210
-    Height = 21
-    TabOrder = 20
-    Visible = False
-  end
-  object Edit23: TEdit
-    Left = 287
-    Top = 547
-    Width = 62
     Height = 21
     TabOrder = 21
     Visible = False
   end
+  object Edit23: TEdit
+    Left = 288
+    Top = 549
+    Width = 62
+    Height = 21
+    TabOrder = 22
+    Visible = False
+  end
   object RadioButton1: TRadioButton
     Left = 32
-    Top = 520
+    Top = 523
     Width = 86
     Height = 17
     Caption = 'Dinheiro.'
@@ -593,12 +594,12 @@ object Form6: TForm6
     Font.Name = 'Arial'
     Font.Style = []
     ParentFont = False
-    TabOrder = 22
+    TabOrder = 19
     OnClick = RadioButton1Click
   end
   object RadioButton2: TRadioButton
-    Left = 127
-    Top = 520
+    Left = 128
+    Top = 523
     Width = 86
     Height = 17
     Caption = 'Dep'#243'sito.'
@@ -608,14 +609,14 @@ object Form6: TForm6
     Font.Name = 'Arial'
     Font.Style = []
     ParentFont = False
-    TabOrder = 23
+    TabOrder = 20
     OnClick = RadioButton2Click
   end
   object Edit22: TEdit
     Left = 598
     Top = 449
     Width = 441
-    Height = 119
+    Height = 21
     TabOrder = 24
   end
   object Button1: TButton
@@ -625,6 +626,7 @@ object Form6: TForm6
     Height = 62
     Caption = 'Cancelar'
     TabOrder = 25
+    OnClick = Button1Click
   end
   object Button2: TButton
     Left = 973
