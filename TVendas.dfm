@@ -1,11 +1,10 @@
 object Form2: TForm2
   Left = 49
   Top = 0
-  Align = alClient
-  BorderStyle = bsSingle
+  BorderStyle = bsNone
   Caption = 'Vendas'
-  ClientHeight = 755
-  ClientWidth = 1376
+  ClientHeight = 769
+  ClientWidth = 1369
   Color = 7699755
   DefaultMonitor = dmDesktop
   Font.Charset = DEFAULT_CHARSET
@@ -16,14 +15,13 @@ object Form2: TForm2
   OldCreateOrder = False
   Position = poDesigned
   PrintScale = poPrintToFit
-  WindowState = wsMaximized
   OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object Panel1: TPanel
     Left = 1167
     Top = 216
-    Width = 202
+    Width = 194
     Height = 425
     Color = 8429452
     ParentBackground = False
@@ -56,9 +54,9 @@ object Form2: TForm2
     end
   end
   object Panel2: TPanel
-    Left = -8
+    Left = 8
     Top = 49
-    Width = 1385
+    Width = 1353
     Height = 161
     Color = 8429452
     ParentBackground = False
@@ -80,69 +78,69 @@ object Form2: TForm2
       ParentFont = False
     end
     object Label18: TLabel
-      Left = 1249
-      Top = 96
+      Left = 1192
+      Top = 64
       Width = 67
       Height = 13
       Caption = 'Logo Empresa'
     end
     object Image1: TImage
-      Left = 1175
+      Left = 1161
       Top = 16
       Width = 174
       Height = 126
     end
   end
   object Panel3: TPanel
-    Left = -11
-    Top = -8
-    Width = 1380
-    Height = 51
+    Left = 8
+    Top = 8
+    Width = 1353
+    Height = 33
     Color = 8429452
     Ctl3D = True
     ParentBackground = False
     ParentCtl3D = False
     TabOrder = 2
     object Label4: TLabel
-      Left = 16
-      Top = 22
+      Left = 19
+      Top = 10
       Width = 71
       Height = 13
       Caption = 'Nome Empresa'
     end
     object Label16: TLabel
-      Left = 176
-      Top = 22
+      Left = 184
+      Top = 10
       Width = 57
       Height = 13
       Caption = 'Nome Caixa'
     end
     object Label17: TLabel
-      Left = 1232
-      Top = 22
+      Left = 1229
+      Top = 10
       Width = 30
       Height = 13
       Caption = 'Senha'
     end
   end
   object Panel4: TPanel
-    Left = -11
+    Left = 8
     Top = 728
-    Width = 1388
-    Height = 41
+    Width = 1353
+    Height = 33
     Color = 8429452
     ParentBackground = False
     TabOrder = 3
     object Label5: TLabel
-      Left = 672
-      Top = 16
+      Left = 656
+      Top = 8
       Width = 59
       Height = 13
       Caption = 'Dica Atalhos'
     end
     object Label15: TLabel
-      Left = 1310
-      Top = 16
+      Left = 1262
+      Top = 8
       Width = 28
       Height = 13
       Caption = 'Horas'
@@ -155,9 +153,9 @@ object Form2: TForm2
     Height = 306
     TabOrder = 4
     object DBGrid1: TDBGrid
-      Left = 0
+      Left = -8
       Top = 0
-      Width = 1153
+      Width = 1161
       Height = 306
       TabOrder = 0
       TitleFont.Charset = DEFAULT_CHARSET
@@ -168,9 +166,9 @@ object Form2: TForm2
     end
   end
   object Panel6: TPanel
-    Left = 0
+    Left = 8
     Top = 647
-    Width = 1369
+    Width = 1353
     Height = 75
     Color = 8429452
     ParentBackground = False
@@ -203,15 +201,15 @@ object Form2: TForm2
     end
   end
   object Panel7: TPanel
-    Left = -5
+    Left = 8
     Top = 216
-    Width = 1166
+    Width = 1153
     Height = 113
     Color = 8429452
     ParentBackground = False
     TabOrder = 6
     object Label8: TLabel
-      Left = 234
+      Left = 218
       Top = 16
       Width = 203
       Height = 36
@@ -237,8 +235,8 @@ object Form2: TForm2
       ParentFont = False
     end
     object Label9: TLabel
-      Left = 466
-      Top = 43
+      Left = 458
+      Top = 35
       Width = 27
       Height = 56
       Caption = 'x'
@@ -250,10 +248,10 @@ object Form2: TForm2
       ParentFont = False
     end
     object Label11: TLabel
-      Left = 738
-      Top = 38
-      Width = 22
-      Height = 56
+      Left = 730
+      Top = 40
+      Width = 23
+      Height = 41
       Caption = '='
       Font.Charset = ANSI_CHARSET
       Font.Color = clBlack
@@ -263,7 +261,7 @@ object Form2: TForm2
       ParentFont = False
     end
     object Label12: TLabel
-      Left = 322
+      Left = 282
       Top = 54
       Width = 44
       Height = 32
@@ -276,7 +274,7 @@ object Form2: TForm2
       ParentFont = False
     end
     object Label13: TLabel
-      Left = 614
+      Left = 582
       Top = 54
       Width = 44
       Height = 32
@@ -289,7 +287,7 @@ object Form2: TForm2
       ParentFont = False
     end
     object Label14: TLabel
-      Left = 798
+      Left = 806
       Top = 54
       Width = 44
       Height = 32

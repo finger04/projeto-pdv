@@ -30,6 +30,10 @@ type
     Compras1: TMenuItem;
     Caixa3: TMenuItem;
     Geral1: TMenuItem;
+    Administrador1: TMenuItem;
+    Ativao1: TMenuItem;
+    Exportao1: TMenuItem;
+    Parmetros1: TMenuItem;
     procedure Button1Click(Sender: TObject);
     procedure Button1KeyDown(Sender: TObject; var Key: Word;
       Shift: TShiftState);

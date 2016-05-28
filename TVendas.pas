@@ -57,7 +57,7 @@ procedure TForm2.FormCreate(Sender: TObject);
   OldVal: LongInt;
 
 begin
-  //Tira a borda do formulário
+ //Tira a borda do formulário
 
   Form2.BorderStyle := bsNone;
 

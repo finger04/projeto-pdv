@@ -105,5 +105,17 @@ object Form1: TForm1
         OnClick = Geral1Click
       end
     end
+    object Administrador1: TMenuItem
+      Caption = 'Administrador'
+      object Ativao1: TMenuItem
+        Caption = 'Ativa'#231#227'o'
+      end
+      object Exportao1: TMenuItem
+        Caption = 'Exporta'#231#227'o'
+      end
+      object Parmetros1: TMenuItem
+        Caption = 'Par'#226'metros'
+      end
+    end
   end
 end
