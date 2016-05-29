@@ -412,8 +412,8 @@ object Form6: TForm6
     ParentFont = False
   end
   object Label31: TLabel
-    Left = 685
-    Top = 398
+    Left = 729
+    Top = 390
     Width = 250
     Height = 28
     Caption = 'Informa'#231#245'es Adicionais:'
@@ -612,20 +612,13 @@ object Form6: TForm6
     TabOrder = 20
     OnClick = RadioButton2Click
   end
-  object Edit22: TEdit
-    Left = 598
-    Top = 449
-    Width = 441
-    Height = 21
-    TabOrder = 24
-  end
   object Button1: TButton
     Left = 32
     Top = 640
     Width = 120
     Height = 62
     Caption = 'Cancelar'
-    TabOrder = 25
+    TabOrder = 24
     OnClick = Button1Click
   end
   object Button2: TButton
@@ -634,6 +627,15 @@ object Form6: TForm6
     Width = 120
     Height = 62
     Caption = 'Gravar'
+    TabOrder = 25
+  end
+  object Memo1: TMemo
+    Left = 598
+    Top = 448
+    Width = 495
+    Height = 122
+    Lines.Strings = (
+      'Memo1')
     TabOrder = 26
   end
 end

@@ -16,7 +16,6 @@ type
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
-    Edit4: TEdit;
     Edit5: TEdit;
     Edit6: TEdit;
     Edit7: TEdit;
@@ -29,12 +28,12 @@ type
     Label10: TLabel;
     Label15: TLabel;
     Label16: TLabel;
-    Label17: TLabel;
     Label18: TLabel;
     Label19: TLabel;
     Button1: TButton;
     Button2: TButton;
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure Edit5KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -47,6 +46,14 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm4.Edit5KeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+if key = 27 then  begin
+    Form4.Close;
+end;
+end;
 
 procedure TForm4.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);

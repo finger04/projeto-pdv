@@ -35,6 +35,8 @@ type
     Label18: TLabel;
     Image1: TImage;
     DBGrid1: TDBGrid;
+    Label7: TLabel;
+    Label19: TLabel;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }

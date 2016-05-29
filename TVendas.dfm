@@ -52,6 +52,32 @@ object Form2: TForm2
       Font.Style = [fsBold]
       ParentFont = False
     end
+    object Label7: TLabel
+      Left = 48
+      Top = 303
+      Width = 110
+      Height = 36
+      Caption = 'T. Itens:'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -27
+      Font.Name = '@Arial Unicode MS'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+    object Label19: TLabel
+      Left = 72
+      Top = 345
+      Width = 44
+      Height = 32
+      Caption = '<...>'
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clBlack
+      Font.Height = -27
+      Font.Name = 'AR JULIAN'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
   end
   object Panel2: TPanel
     Left = 8
@@ -250,8 +276,8 @@ object Form2: TForm2
     object Label11: TLabel
       Left = 730
       Top = 40
-      Width = 23
-      Height = 41
+      Width = 22
+      Height = 56
       Caption = '='
       Font.Charset = ANSI_CHARSET
       Font.Color = clBlack

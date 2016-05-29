@@ -106,7 +106,7 @@ object Form4: TForm4
     ParentFont = False
   end
   object Label10: TLabel
-    Left = 239
+    Left = 24
     Top = 68
     Width = 116
     Height = 22
@@ -137,19 +137,6 @@ object Form4: TForm4
     Width = 92
     Height = 22
     Caption = 'T. Produto:'
-    Font.Charset = ANSI_CHARSET
-    Font.Color = clBlack
-    Font.Height = -19
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-  end
-  object Label17: TLabel
-    Left = 24
-    Top = 68
-    Width = 142
-    Height = 22
-    Caption = 'CD. Fornecedor:'
     Font.Charset = ANSI_CHARSET
     Font.Color = clBlack
     Font.Height = -19
@@ -188,35 +175,29 @@ object Form4: TForm4
     Top = 272
     Width = 149
     Height = 21
-    TabOrder = 0
+    TabOrder = 8
   end
   object Edit2: TEdit
     Left = 86
     Top = 299
     Width = 106
     Height = 21
-    TabOrder = 1
+    TabOrder = 9
   end
   object Edit3: TEdit
     Left = 86
     Top = 272
     Width = 303
     Height = 21
-    TabOrder = 2
-  end
-  object Edit4: TEdit
-    Left = 174
-    Top = 69
-    Width = 51
-    Height = 21
-    TabOrder = 3
+    TabOrder = 7
   end
   object Edit5: TEdit
-    Left = 361
+    Left = 146
     Top = 69
-    Width = 268
+    Width = 482
     Height = 21
-    TabOrder = 4
+    TabOrder = 0
+    OnKeyDown = Edit5KeyDown
   end
   object Edit6: TEdit
     Left = 84
@@ -237,28 +218,28 @@ object Form4: TForm4
     Top = 125
     Width = 189
     Height = 21
-    TabOrder = 7
+    TabOrder = 4
   end
   object Edit9: TEdit
     Left = 109
     Top = 124
     Width = 190
     Height = 21
-    TabOrder = 8
+    TabOrder = 3
   end
   object Edit10: TEdit
     Left = 162
     Top = 98
     Width = 244
     Height = 21
-    TabOrder = 9
+    TabOrder = 1
   end
   object Edit11: TEdit
     Left = 474
     Top = 98
     Width = 155
     Height = 21
-    TabOrder = 10
+    TabOrder = 2
   end
   object Button1: TButton
     Left = 522
@@ -266,7 +247,7 @@ object Form4: TForm4
     Width = 106
     Height = 49
     Caption = 'Gravar'
-    TabOrder = 11
+    TabOrder = 10
   end
   object Button2: TButton
     Left = 24
@@ -274,6 +255,6 @@ object Form4: TForm4
     Width = 106
     Height = 49
     Caption = 'Cancelar'
-    TabOrder = 12
+    TabOrder = 11
   end
 end

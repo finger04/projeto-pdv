@@ -24,6 +24,7 @@ type
     Label4: TLabel;
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure Button2Click(Sender: TObject);
+    procedure Edit4KeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
   public
@@ -40,6 +41,14 @@ implementation
 procedure TForm5.Button2Click(Sender: TObject);
 begin
 Close;
+end;
+
+procedure TForm5.Edit4KeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+if key = 27 then  begin
+    Form5.Close;
+end;
 end;
 
 procedure TForm5.FormKeyDown(Sender: TObject; var Key: Word;

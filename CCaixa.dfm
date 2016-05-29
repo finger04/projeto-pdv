@@ -2,8 +2,8 @@ object Form5: TForm5
   Left = 0
   Top = 0
   Caption = 'Cadastro Caixa'
-  ClientHeight = 372
-  ClientWidth = 530
+  ClientHeight = 363
+  ClientWidth = 510
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,7 +15,7 @@ object Form5: TForm5
   PixelsPerInch = 96
   TextHeight = 13
   object Label10: TLabel
-    Left = 32
+    Left = 19
     Top = 163
     Width = 52
     Height = 22
@@ -28,7 +28,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label17: TLabel
-    Left = 32
+    Left = 19
     Top = 148
     Width = 5
     Height = 22
@@ -40,7 +40,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label19: TLabel
-    Left = 32
+    Left = 19
     Top = 204
     Width = 59
     Height = 22
@@ -53,7 +53,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label1: TLabel
-    Left = 32
+    Left = 19
     Top = 68
     Width = 103
     Height = 22
@@ -66,7 +66,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label2: TLabel
-    Left = 32
+    Left = 19
     Top = 240
     Width = 147
     Height = 22
@@ -79,7 +79,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label3: TLabel
-    Left = 214
+    Left = 200
     Top = 116
     Width = 70
     Height = 24
@@ -92,7 +92,7 @@ object Form5: TForm5
     ParentFont = False
   end
   object Label4: TLabel
-    Left = 208
+    Left = 195
     Top = 8
     Width = 85
     Height = 24
@@ -105,44 +105,45 @@ object Form5: TForm5
     ParentFont = False
   end
   object Edit5: TEdit
-    Left = 90
+    Left = 77
     Top = 164
     Width = 174
     Height = 21
-    TabOrder = 0
+    TabOrder = 2
   end
   object Edit9: TEdit
-    Left = 97
+    Left = 84
     Top = 205
     Width = 167
     Height = 21
-    TabOrder = 1
+    TabOrder = 3
   end
   object Edit4: TEdit
-    Left = 139
+    Left = 126
     Top = 69
     Width = 286
     Height = 21
-    TabOrder = 2
+    TabOrder = 0
+    OnKeyDown = Edit4KeyDown
   end
   object Button1: TButton
-    Left = 434
+    Left = 421
     Top = 66
     Width = 75
     Height = 25
     Caption = 'Pesquisa'
-    TabOrder = 3
+    TabOrder = 1
   end
   object Edit1: TEdit
-    Left = 185
+    Left = 172
     Top = 241
     Width = 167
     Height = 21
     TabOrder = 4
   end
   object Button2: TButton
-    Left = 32
-    Top = 286
+    Left = 19
+    Top = 294
     Width = 93
     Height = 51
     Caption = 'Cancelar'
@@ -150,8 +151,8 @@ object Form5: TForm5
     OnClick = Button2Click
   end
   object Button3: TButton
-    Left = 416
-    Top = 286
+    Left = 403
+    Top = 294
     Width = 93
     Height = 51
     Caption = 'Gravar'

@@ -63,9 +63,9 @@ type
     RadioButton1: TRadioButton;
     RadioButton2: TRadioButton;
     Label31: TLabel;
-    Edit22: TEdit;
     Button1: TButton;
     Button2: TButton;
+    Memo1: TMemo;
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure RadioButton2Click(Sender: TObject);
     procedure RadioButton1Click(Sender: TObject);
