@@ -3,8 +3,8 @@ object Form1: TForm1
   Top = 0
   Align = alClient
   Caption = 'Tela Inicial'
-  ClientHeight = 725
-  ClientWidth = 1366
+  ClientHeight = 721
+  ClientWidth = 1362
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText

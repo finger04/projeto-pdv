@@ -91,6 +91,15 @@ procedure TForm1.Button1KeyDown(Sender: TObject; var Key: Word;
 begin
 if key = VK_F1 then
  Button1.Click;
+if Key = VK_F2 then
+ Financeiro1.Click;
+if Key = VK_F3 then
+ Estoque1.Click;
+if Key = VK_F4 then
+ Funcionrios1.Click;
+if Key = VK_F5 then
+ Caixa2.Click;
+
 end;
 
 procedure TForm1.Caixa1Click(Sender: TObject);
